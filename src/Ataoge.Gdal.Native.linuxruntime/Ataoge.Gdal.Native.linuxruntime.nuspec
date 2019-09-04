@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>Ataoge.Gdal.Native.linuxruntime</id>
+		<version>1.0.0</version>
+		<title>Gdal Core for Linux (x64)</title>
+		<authors>HuangTao</authors>
+		<owners>HuangTao</owners>
+		<license type="file">LICENSE.txt</license>
+		<projectUrl>https://github.com/ataoge/GdalCore</projectUrl>
+		<repository type="git" url="https://github.com/ataoge/GdalCore" />
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>This package complements the Gdal Core package and contains the native implementation for Linux (x64).</description>
+		<releaseNotes>GdalCore</releaseNotes>
+		<copyright>Copyright © 2019-2025 HuangTao</copyright>
+		<language>en-US</language>
+		<tags>Gdal Core Linux x64</tags>
+	</metadata>
+	<files>
+		<file src="../../LICENSE.txt" target="LICENSE.txt" />
+        <file src="linuxruntime/libgdal.so" target="runtimes/linux-x64/native/" />
+        <file src="linuxruntime/gdal_wrap.so" target="runtimes/linux-x64/native/" />
+        <file src="linuxruntime/gdalconst_wrap.so" target="runtimes/linux-x64/native/" />
+        <file src="linuxruntime/ogr_wrap.so" target="runtimes/linux-x64/native/" />
+        <file src="linuxruntime/osr_wrap.so" target="runtimes/linux-x64/native/" />
+
+       
+    </files>
+
+</package>

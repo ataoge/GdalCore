@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>Ataoge.Gdal.Native.win-x64</id>
+		<version>1.0.0</version>
+		<title>Gdal Core for Windows (x64)</title>
+		<authors>HuangTao</authors>
+		<owners>HuangTao</owners>
+		<license type="file">LICENSE.txt</license>
+		<projectUrl>https://github.com/ataoge/GdalCore</projectUrl>
+		<repository type="git" url="https://github.com/ataoge/GdalCore" />
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>This package complements the Gdal package and contains the native implementation for Windows (x64).</description>
+		<releaseNotes>GdalCore</releaseNotes>
+		<copyright>Copyright © 2019-2025 HuangTao</copyright>
+		<language>en-US</language>
+		<tags>Gdal Core Windows x64</tags>
+	</metadata>
+	<files>
+		<file src="../../LICENSE.txt" target="LICENSE.txt" />
+        <file src="win-x64/gdal204.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/gdal_wrap.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/gdalconst_wrap.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/ogr_wrap.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/osr_wrap.dll" target="runtimes/win-x64/native/" />
+
+        <file src="win-x64/libpq.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/libssl-1_1-x64.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/libcrypto-1_1-x64.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/libiconv-2.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/libintl-8.dll" target="runtimes/win-x64/native/" />
+
+        <file src="win-x64/tbb.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/lti_dsdk_9.5.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/lti_dsdk_cdll_9.5.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/lti_lidar_dsdk_1.1.dll" target="runtimes/win-x64/native/" />
+
+        <file src="win-x64/geos_c.dll" target="runtimes/win-x64/native/" />
+        <file src="win-x64/proj.dll" target="runtimes/win-x64/native/" />
+    </files>
+
+</package>
